@@ -39,7 +39,7 @@ Import the library:
 Connect to the FTP server using the FTP() function, passing in the server's IP address and port as arguments:
 
         ftp = ftplib.FTP()
-        ftp.connect("server_ip", server_port)
+        ftp.connect("127.0.0.1", 2121)
 
 Log in to the server using the login() method, passing in your username and password as arguments:
 
