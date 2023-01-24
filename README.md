@@ -16,7 +16,7 @@ from pyftpdlib.servers import FTPServer
     Create an instance of the DummyAuthorizer class to handle user authentication:
 
 authorizer = DummyAuthorizer()
-authorizer.add_user("Twarga", "123", "path/to/home/directory", perm="elradfmwMT")
+authorizer.add_user("user", "password", "path/to/home/directory", perm="elradfmw")
 
     Create an instance of the FTPHandler class and set the authorizer and other options:
 
@@ -45,4 +45,5 @@ ftp.connect("127.0.0.1", 2121)
 
     Log in to the server using the login() method, passing in your username and password as arguments:
 
-ftp.login("Twarga", "123")
+ftp.login("username", "password")
+
