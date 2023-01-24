@@ -1,3 +1,10 @@
+___________________________
+Full Tutorial im my blog post : 
+https://twarga.hashnode.dev/creating-a-simple-ftp-server-and-client-using-python-a-step-by-step-guide
+
+
+
+
 Welcome to our simple FTP server and client project using Python!
 
 In this project, we will be using the pyftpdlib library to create a basic FTP server and the ftplib library to create a basic FTP client. The pyftpdlib library is a pure Python FTP server library, while the ftplib library is a library for interacting with FTP servers.
